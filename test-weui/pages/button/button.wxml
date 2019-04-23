@@ -1,0 +1,18 @@
+<view class='page'>
+  <view class='page__hd'>
+    <view class='page__title'>Button</view>
+    <view class='page__desc'>按钮演示</view>
+  </view>
+  <view class='page__bd page__bd_spacing'>
+    <button class='weui-button' type='primary' >页面主操作</button>
+    <button class='weui-button' type='primary' disabled='true'>页面主操作disable</button>
+    <button class='weui-button' type='default'>页面次要操作</button>
+    <button class='weui-button' type='warn'>警告操作</button>
+
+    <view class='button-sp-area'>
+      <button class='weui-btn' type='primary' plain='true'>按钮</button>
+      <button class='weui-btn mini-btn' type='primary' size='mini'>按钮1</button>
+      <button class='weui-btn mini-btn' type='default' size='mini'>按钮2</button>
+    </view>
+  </view>
+</view>

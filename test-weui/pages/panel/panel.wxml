@@ -1,0 +1,23 @@
+<view class='page'>
+  <view class='page__hd'>
+    <view class='page__title'>Panel</view>
+    <view class='page__desc'>面板demo</view>
+
+  </view>
+  <view class='page__bd'>
+    <view class='weui-panel weui-panel_access'>
+      <view class='weui-panel__hd'>图文组合</view>
+      <view class='weui-panel__bd'>
+        <navigator url='' class='weui-media-box weui-media-box_appmsg' hover-class='weui-cell_active'>
+          <view class='weui-media-box weui-media-box__hd_in-appmsg'>
+            <image class='weui-media-box__thumb' src="{{icon60}}"></image>
+          </view>
+          <view class='weui-media-box__bd weui-media-box__bd_in-appmsg'>
+            <view class='weui-media-box__title'>标题1</view>
+            <view class='weui-media-box__desc'>内容1</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>
